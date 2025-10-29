@@ -1,0 +1,22 @@
+#HomePage-header {
+    color: white;
+
+    position: fixed;
+    top: 1vh;
+    z-index: 2;
+
+    width: 100%;
+}
+
+#HomePage-header a {
+    display: block;
+
+    margin: 0px 10px 0px 0px;
+
+    text-align: end;
+}
+
+#HomePage-header a:hover {
+    color: rgb(234, 230, 230);
+    cursor: pointer;
+}

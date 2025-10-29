@@ -1,0 +1,8 @@
+#UploadPage-main #upload img {
+    display: block;
+    height: 40wh;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
