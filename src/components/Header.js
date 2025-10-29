@@ -1,8 +1,8 @@
-import '../styles/Header.css';
+import "../styles/Header.css";
 
 function Header() {
     return (
-        <header id='Homepage-header'>
+        <header id="Homepage-header">
             <a>ABOUT US</a>
         </header>
     );

@@ -9,8 +9,8 @@
     font-size: 5vw;
     
     margin: 0;
-    padding: 10px 0px 20px 0px;
-    
+    padding: 20px 0px 0px 0px;
+
     text-align: center;
 }
 
@@ -26,49 +26,4 @@
     margin: 15px 0px;
 
     text-align: center;
-}
-
-#UploadPage-main #upload-info #anchor-container {
-    display: flex;
-    justify-content: center;
-}
-
-#UploadPage-main #upload-info #anchor {
-    margin: 0px 2vw;
-    padding: 5px 20px;
-
-    background-color: #404040;
-    border-radius: 30px;    
-    box-shadow: 5px 5px 10px 0px black;
-
-    width: 13vw;
-
-    text-align: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#UploadPage-main #upload-info #anchor:hover {
-    background-color: #6d6767;
-    cursor: pointer;
-}
-
-#UploadPage-main #upload-info #anchor a {
-    display: block;
-    
-    font-size: 1vw;
-    color: #95FF8D;
-
-    padding: 0px 6px 0px 0px;
-}
-
-#UploadPage-main #upload-info #anchor img {
-    display: block;
-
-    position: relative;
-
-    width: 1vw;
-    height: 1vw;
 }
