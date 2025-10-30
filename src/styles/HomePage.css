@@ -19,7 +19,7 @@
 }
 
 #HomePage-main #title-and-anchors #anchors .anchor {
-    margin: 0px 2vw;
+    margin: 0 2vw;
     padding: 5px 20px;
 
     background-color: #86E67F;
@@ -42,7 +42,7 @@
     font-size: 1.5vw;
     color: black;
 
-    padding: 0px 6px 0px 0px;
+    padding: 0 6px 0 0px;
 }
 
 #HomePage-main #title-and-anchors #anchors .anchor img {

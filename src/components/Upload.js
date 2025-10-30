@@ -34,7 +34,7 @@ function Upload() {
 
     return (
         <div id="upload">
-            <img id="led-frame" src="/images/LED-frame.jpg"></img>
+            <img id="led-frame" src="/images/LED-frame.jpeg"></img>
             <form action="submit" method="post" encType="multipart/form-data">
                 <label htmlFor="image-upload-input">click here</label>
                 <input id="image-upload-input" type="file" name="image" accept="image/*" onChange={handleImageUpload}></input>
