@@ -1,6 +1,7 @@
-import "../styles/Upload.css";
-
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
+import "../styles/Upload.css";
 
 function Upload() {
     const [isAnchorVisible, setIsAnchorVisible] = useState(false);
@@ -42,7 +43,7 @@ function Upload() {
             {isUploadedImageVisible && <img id="uploaded-image" src={uploadedImage}></img>}
             <div id="anchor-container" style={{display: isAnchorVisible ? "flex" : "none"}}>
                 <div id="anchor">
-                    <a>GO TO BILLBOARD</a><img src="/images/link-icon-green.png"></img>
+                    <Link to="/billboard">GO TO BILLBOARD</Link><img src="/images/link-icon-green.png"></img>
                 </div>
             </div>
         </div>

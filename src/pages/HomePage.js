@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Header from "../components/Header";
 
 import "../styles/HomePage.css";
@@ -11,10 +13,10 @@ function HomePage() {
                     <h1>Explore Billboard!</h1>
                     <div id="anchors">
                         <div className="anchor">
-                            <a>GO TO BILLBOARD</a><img src="/images/link-icon-black.png"></img>
+                            <Link to="/billboard">GO TO BILLBOARD</Link><img src="/images/link-icon-black.png"></img>
                         </div>
                         <div className="anchor">
-                            <a>DISPLAY A PHOTO</a><img src="/images/link-icon-black.png"></img>                            
+                            <Link to="/upload">DISPLAY A PHOTO</Link><img src="/images/link-icon-black.png"></img>                            
                         </div>
                     </div>
                 </div>                
